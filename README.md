@@ -13,13 +13,13 @@ A few notable Conway Game of Life patterns:
 Use the included script to visualize live creatures directly in your terminal:
 
 ```bash
-python3 /home/runner/work/test/test/game_of_life.py --pattern glider --width 40 --height 20 --steps 120
+python3 game_of_life.py --pattern glider --width 40 --height 20 --steps 120
 ```
 
 Try a random seed:
 
 ```bash
-python3 /home/runner/work/test/test/game_of_life.py --random-cells 80 --seed 7
+python3 game_of_life.py --random-cells 80 --seed 7
 ```
 
 ## Discover patterns en masse
@@ -27,7 +27,7 @@ python3 /home/runner/work/test/test/game_of_life.py --random-cells 80 --seed 7
 You can generate many random starting configurations and rank them with a simple fitness criterion:
 
 ```bash
-python3 /home/runner/work/test/test/game_of_life.py --discover 200 --steps 120 --seed-cells 14 --top 10
+python3 game_of_life.py --discover 200 --steps 120 --seed-cells 14 --top 10
 ```
 
 Current fitness criterion:
